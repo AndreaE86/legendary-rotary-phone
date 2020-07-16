@@ -1,0 +1,34 @@
+/* Page background styles */
+body {
+  background-color: rgb(217,247,255);
+}
+
+/* H1 heading funky styles */
+#funky {
+  font-family: 'Verdana', 'Geneva', 'sans-serif';
+  color: red;
+	text-align: center;
+}
+
+/* Paragraph styles */
+p {
+   font-family: 'Courier New', 'Courier', 'monospace';
+	 text-align: center;
+}
+
+#redflower {
+  font-style: italic;
+  color: red;
+}
+
+#blueflower {
+  font-style: italic;
+  color: blue;
+}
+
+/* Image styles */
+
+#flowerpic {
+  width: 20%;
+	height: 20%;
+}

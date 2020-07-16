@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+	<link href="firstpage.css" rel="stylesheet">
+  <title>Andrea's Page!</title>
+  <script>
+      function changeTitle() {
+      var title = document.querySelector("#funky");
+      title.innerHTML += "<br>This new <u>title</u> has been changed from JavaScript!";
+    } 
+  </script>
+</head>
+<body>
+     <h1 id=funky>This funky title should change!</h1>
+     <p>Roses are <span id=redflower>red,</span><br>
+        violets are <span id=blueflower>blue,</span><br>
+        coding is fun,<br>
+        and good for you, too!
+     </p>
+     <br>
+     <button onclick="changeTitle();">Click this button to change the title!</button>
+     <br>
+     <br>
+     <img src="https://i.pinimg.com/originals/9e/96/bb/9e96bb71e57221b87d3f2249d2e2ec72.jpg" id="flowerpic" alt="bouquet of violets and roses" />
+</body>
+</html>
